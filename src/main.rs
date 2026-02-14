@@ -20,8 +20,8 @@ fn main() {
         "January", "February", "March", "April", "May", "June",
         "July", "August", "September", "October", "November", "December"
     ];
-    println!("{:^21}", month_names[(current_month - 1) as usize]);
-    println!("{:^21}", current_year);
+    println!("    {:^21}", month_names[(current_month - 1) as usize]);
+    println!("    {:^21}", current_year);
     
     // Print abbreviated weekday names (one character each)
     // Starting with Monday to match ISO week convention
